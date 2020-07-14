@@ -29,7 +29,7 @@ $borderImage: 3px solid #f3f3f3;
       transition: 1s;
 
       &:hover {
-        border: $borderImage;
+        outline: $borderImage;
         transform: scale(1.2);
         margin-top: 0;
       }
