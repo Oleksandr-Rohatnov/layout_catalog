@@ -1,6 +1,6 @@
 $backgroundCardColor: #fff;
 $borderCard: 1px solid #f3f3f3;
-$borderImage: 3px solid #f3f3f3;
+$borderImage: #f3f3f3;
 
 .content {
   justify-content: center;
@@ -29,9 +29,8 @@ $borderImage: 3px solid #f3f3f3;
       transition: 1s;
 
       &:hover {
-        outline: $borderImage;
+        border: $borderImage;
         transform: scale(1.2);
-        margin-top: 0;
       }
     }
 
