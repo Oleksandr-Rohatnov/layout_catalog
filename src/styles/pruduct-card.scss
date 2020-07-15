@@ -1,14 +1,15 @@
 $backgroundCardColor: #fff;
 $borderCard: 1px solid #f3f3f3;
 $borderImage: #f3f3f3;
+$card-width: 200px;
 
 .content {
   display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-gap: 48px;
-  grid-row-gap: 50px;
+  grid-template-columns: repeat(auto-fit, $card-width);
+  grid-gap: 50px 48px;
   justify-content: center;
-  margin-top: 50px;
+  margin: 50px auto;
+  max-width: 48px * 3 + $card-width * 4;
 }
 
 .card {
